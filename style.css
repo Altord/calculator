@@ -1,0 +1,88 @@
+body {
+    background-color: midnightblue;
+}
+
+
+h1{
+    size: 90px;
+    text-align: center;
+    color: #7e4ae8;
+}
+
+.column{
+    float: left;
+    width: 123px;
+}
+#calCont{
+    width: 510px;
+    height: 425px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: floralwhite;
+    display: block;
+    margin: 0 auto;
+}
+#innerCont{
+    width: 502px;
+    height: 415px;
+    border: 4px solid white;
+    display: block;
+    margin: 3px auto;
+    border-radius: 7px;
+}
+#screen{
+
+    width: 480px;
+    height: 67px;
+    margin: 5px 4px;
+    font-size: 55px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 4px;
+    text-align: right;
+    border:none;
+    background-color: floralwhite;
+    color: black;
+    overflow: hidden;
+    direction: rtl;
+
+}
+button{
+    background-color: white;
+    border-color: white;
+}
+.numbers{
+    width: 120px;
+    height: 80px;
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+.space{
+    margin:  0 5px;
+}
+
+
+
+.operators{
+    width: 126px;
+    height: 65px;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+
+
+.resets{
+    margin-top: 4px;
+    width: 59.5px;
+    height: 63px;
+    font-size: 25px;
+}
+
+#num0{
+    border-radius: 0px 0px 0px 7px;
+}
+#sum{
+    border-radius: 0px 0px 7px 0px;
+}
